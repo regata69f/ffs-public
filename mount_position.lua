@@ -377,6 +377,41 @@ local Mount = {
 				["Rotation"] = Vector3.new(0, 0, 0),
 				["Delay"] = 3,
 			},	
+		},
+	},
+	["82004947373983"] = {
+		["Name"] = "Mount Yahayuk",
+		["Teleports"] = {
+			["CP 1"] = {
+				["Position"] = Vector3.new(-470.964996, 248.694946, 764.069946),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 2"] = {
+				["Position"] = Vector3.new(-361.964996, 387.694946, 572.929993),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 3"] = {
+				["Position"] = Vector3.new(257.884583, 429.429626, 505.820068),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 4"] = {
+				["Position"] = Vector3.new(333.342468, 485.919006, 357.093536),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 5"] = {
+				["Position"] = Vector3.new(237.035019, 313.694885, -145.069992),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},	
+			["Summit"] = {
+				["Position"] = Vector3.new(-609.132812, 905.096252, -528.418579),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},	
 		}
 	}
 }
