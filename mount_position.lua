@@ -413,7 +413,72 @@ local Mount = {
 				["Delay"] = 30,
 			},	
 		}
-	}
+	},
+	["123876706043500"] = {
+		["Name"] = "Mount Horeg",
+		["Teleports"] = {
+			["CP 1"] = {
+				["Position"] = Vector3.new(-1138.64978, 398.115845, -894.662109),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 2"] = {
+				["Position"] = Vector3.new(-854.748901, 763.446777, -492.231781),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 3"] = {
+				["Position"] = Vector3.new(-1059.65967, 844.172485, -124.863831),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["CP 4"] = {
+				["Position"] = Vector3.new(-1067.09241, 1049.37817, 501.345184),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},
+			["Summit"] = {
+				["Position"] = Vector3.new(-1689.18994, 1161.23804, 570.02301),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 30,
+			},	
+		}
+	},
+	["138149789228609"] = {
+		["Name"] = "Mount Rinjani",
+		["Teleports"] = {
+			["CP 1"] = {
+				["Position"] = Vector3.new(3357.65967, 9030.76074, 5635.41992),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 3,
+			},
+			["CP 2"] = {
+				["Position"] = Vector3.new(3075.56323, 9107.51074, 4456.625),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 3,
+			},
+			["CP 3"] = {
+				["Position"] = Vector3.new(1877.01196, 9551.70996, 3488.43994),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 3,
+			},
+			["CP 4"] = {
+				["Position"] = Vector3.new(1369.3075, 9775.25098, 3126.55444),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 3,
+			},
+			["CP 5"] = {
+				["Position"] = Vector3.new(1188.35291, 10120.5303, 2295.79541),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 3,
+			},	
+			["Summit"] = {
+				["Position"] = Vector3.new(-163.852539, 10839.9561, 3021.03857),
+				["Rotation"] = Vector3.new(0, 0, 0),
+				["Delay"] = 3,
+			},
+		}
+	},
 }
 
 return Mount
