@@ -862,80 +862,90 @@ local Mount = {
 	["123072895076939"] = {
 		["Name"] = "Mount Hauk",
 		["Teleports"] = {
+			["Basecamp"] = {
+				["Position"] = Vector3.new(-2, 5, -12),
+				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
+				["Delay"] = 3,
+			},
+			["Timer"] = {
+				["Position"] = Vector3.new(95.1979599, 18.043108, 35.8734589),
+				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
+				["Delay"] = 3,
+			},
 			["CP 1"] = {
 				["Position"] = Vector3.new(524.706482, 37.149509, 8.058182),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 2"] = {
 				["Position"] = Vector3.new(900.173767, 105.200859, 22.385281),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 3"] = {
 				["Position"] = Vector3.new(650.154724, 122.315140, 401.240967),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 4"] = {
 				["Position"] = Vector3.new(427.923920, 122.236099, 438.432190),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 5"] = {
 				["Position"] = Vector3.new(-174.260620, 134.315170, 547.296692),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 6"] = {
 				["Position"] = Vector3.new(-580.927368, 170.236099, 923.620300),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 7"] = {
 				["Position"] = Vector3.new(-944.471680, 194.315140, 901.876282),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 8"] = {
 				["Position"] = Vector3.new(-1059.652466, 402.069885, 968.866577),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 9"] = {
 				["Position"] = Vector3.new(-1217.081177, 497.399506, 1055.220825),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 10"] = {
 				["Position"] = Vector3.new(-1560.021851, 508.925568, 1116.199341),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 11"] = {
 				["Position"] = Vector3.new(-1738.550781, 608.220459, 911.737488),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 12"] = {
 				["Position"] = Vector3.new(-1867.650391, 662.159546, 854.524780),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 13"] = {
 				["Position"] = Vector3.new(-1900.937134, 716.220459, 871.179138),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["CP 14"] = {
 				["Position"] = Vector3.new(-3072.075195, 1521.566406, -547.426086),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 			["Summit"] = {
 				["Position"] = Vector3.new(-2858.0293, 1532.25854, -610.78949),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 3,
+				["Delay"] = 25,
 			},
 		}
 	}				
