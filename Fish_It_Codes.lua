@@ -1,6 +1,7 @@
 local Codes = {
     "100M",
-    "MUTATE"
+    "MUTATE",
+    "SHARKSSS"
 }
 
 return Codes
