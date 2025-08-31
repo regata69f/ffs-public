@@ -1,4 +1,5 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+local isDestroyed = false
 
 local games = {
 	[121864768012064] = '5ef4906f230aa87d747191682bd77c38', -- Fish It
@@ -30,25 +31,24 @@ if not script_id then
 	return
 end
 
+local API = loadstring(
+	game:HttpGet('https://sdkapi-public.luarmor.net/library.lua')
+)()
+API.script_id = script_id
+
+local closeUI = false
 local adUrl = "https://ads.luarmor.net/get_key?for=FFS_Free_Keys-yTRpdogpOywa"
 WindUI.Services.luarmorService = {
 	Name = 'Luarmor (Lootlabs)',
 	Icon = 'link',
 	Args = { 'ServiceId' }, --
 	New = function(ServiceId) --
-		local API = loadstring(
-			game:HttpGet('https://sdkapi-public.luarmor.net/library.lua')
-		)()
-
 		local fsetclipboard = setclipboard or toclipboard
-
-		API.script_id = script_id
 
 		function ValidateKey(key)
 			script_key = key
 			local status = API.check_key(key)
 			if status.code == 'KEY_VALID' then
-				API.load_script()
 				return true, 'Whitelisted!'
 			elseif status.code == 'KEY_HWID_LOCKED' then
 				return false,
@@ -75,7 +75,7 @@ WindUI.Services.luarmorService = {
 	end,
 }
 
-WindUI:CreateWindow({
+local KeyUI = WindUI:CreateWindow({
 	Title = '🔑 Key System',
 	Icon = 'key',
 	Author = 'For Fun Script',
@@ -94,3 +94,6 @@ WindUI:CreateWindow({
 		},
 	},
 })
+
+KeyUI:Close()
+API.load_script()
