@@ -95,5 +95,5 @@ local KeyUI = WindUI:CreateWindow({
 	},
 })
 
-KeyUI:Close()
+KeyUI:Destroy()
 API.load_script()
