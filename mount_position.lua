@@ -615,17 +615,17 @@ local Mount = {
 			["CP 1"] = {
 				["Position"] = Vector3.new(-3719.244873046875, 226.95399475097656, 235.3978271484375),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 240,
+				["Delay"] = 3,
 			},
 			["CP 2"] = {
 				["Position"] = Vector3.new(1790.7022705078125, 107.41500091552734, -137.0068359375),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 240,
+				["Delay"] = 3,
 			},
 			["CP 3"] = {
 				["Position"] = Vector3.new(5891.3115234375, 323.10498046875, -17.62114906311035),
 				["Rotation"] = Vector3.new(0.000000, 0.000000, 0.000000),
-				["Delay"] = 240,
+				["Delay"] = 3,
 			},
 			["CP 4"] = {
 				["Position"] = Vector3.new(8992.1708984375, 597.85498046875, 104.2709197980469),
@@ -948,7 +948,56 @@ local Mount = {
 				["Delay"] = 25,
 			},
 		}
-	}				
+	},
+	["73347831908825"] = {
+		["Name"] = "Hell Expedition",
+		["Teleports"] = {
+			["Base"] = { Position = Vector3.new(-51.26, 14.47, 160.05), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 1"] = { Position = Vector3.new(-101.777679, 197.610489, 272.127838), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 2"] = { Position = Vector3.new(154.644562, 245.552200, 424.101166), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 3"] = { Position = Vector3.new(483.511475, 349.838623, 311.325500), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 4"] = { Position = Vector3.new(526.199402, 409.628113, -314.936462), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 5"] = { Position = Vector3.new(-227.153244, 537.771301, -756.706604), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 6"] = { Position = Vector3.new(-654.441956, 537.560852, -651.388367), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 7"] = { Position = Vector3.new(-817.375061, 423.664703, 441.517334), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 8"] = { Position = Vector3.new(-320.070709, 405.673004, 659.572510), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 9"] = { Position = Vector3.new(347.045471, 322.318726, 717.056396), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 10"] = { Position = Vector3.new(807.415405, 633.852234, 863.596436), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 11"] = { Position = Vector3.new(1253.210571, 821.923279, 394.767395), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 12"] = { Position = Vector3.new(1509.197998, 1189.860596, 17.688011), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 13"] = { Position = Vector3.new(999.562805, 1189.729736, -58.481220), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Summit"] = { Position = Vector3.new(-1512.96655, 1869.7959, -71.9861755), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 }
+		}
+	},
+	["108448055225264"] = {
+		["Name"] = "Gunung Akhirat",
+		["Teleports"] = {
+			["Base"] = { Position = Vector3.new(-236.05, 121.00, 193.72), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 1"] = { Position = Vector3.new(-135.181076, 425.767944, -220.569519), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 2"] = { Position = Vector3.new(-3, 952.688049, -1054), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 3"] = { Position = Vector3.new(109, 1204.76392, -1359), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 4"] = { Position = Vector3.new(103, 1468.37317, -1808), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 5"] = { Position = Vector3.new(303.773132, 1872.025269, -2327.931885), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 6"] = { Position = Vector3.new(560.051208, 2088.919922, -2560.065674), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 7"] = { Position = Vector3.new(754.000000, 2189.000000, -2500.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 8"] = { Position = Vector3.new(793.000000, 2333.000000, -2641.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoint 9"] = { Position = Vector3.new(969.000000, 2521.000000, -2632.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 10"] = { Position = Vector3.new(1239.000000, 2696.000000, -2803.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 11"] = { Position = Vector3.new(1622.000000, 3060.000000, -2752.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 12"] = { Position = Vector3.new(1812.914062, 3581.132080, -3246.351807), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 13"] = { Position = Vector3.new(2810.076904, 4423.799805, -4794.330078), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 14"] = { Position = Vector3.new(3470.000000, 4859.799805, -4178.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 15"] = { Position = Vector3.new(3478.000000, 5109.000000, -4279.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 16"] = { Position = Vector3.new(3975.000000, 5670.500000, -3973.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+		    ["Checkpoints 17"] = { Position = Vector3.new(4498.000000, 5901.585938, -3791.999756), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 18"] = { Position = Vector3.new(5064.000000, 6375.864746, -2979.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 19"] = { Position = Vector3.new(5539.000000, 6594.500000, -2490.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 20"] = { Position = Vector3.new(5549.000000, 6876.147461, -1050.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 21"] = { Position = Vector3.new(4328.000488, 7637.640625, 132.000000), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Checkpoints 22"] = { Position = Vector3.new(3456.166016, 7714.400391, 938.190430), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+			["Summit"] =  { Position = Vector3.new(3041.74048, 7893.97217, 1037.59253), Rotation = Vector3.new(0.000000, 0.000000, 0.000000), Delay = 3 },
+		}
+	}
 }
 
 return Mount
