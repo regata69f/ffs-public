@@ -16,8 +16,8 @@ local games = {
 	[123072895076939] = "441b692d791ccc8add557367b35a6e2e", -- Mount Haunt
 	[2693023319]      = "441b692d791ccc8add557367b35a6e2e", -- Expedition Antarctica
 	[75188411736711]  = "441b692d791ccc8add557367b35a6e2e", -- Mount Yaseterah
-	[123224294054165] = "441b692d791ccc8add557367b35a6e2e", -- Mount Atin
-	[123072895076939] = "441b692d791ccc8add557367b35a6e2e", -- Mount Hauk
+	[73347831908825] = "441b692d791ccc8add557367b35a6e2e",  -- Hell Expedition
+	[108448055225264] = "441b692d791ccc8add557367b35a6e2e", -- Mount Akhirat
 }
 
 local script_id = games[game.PlaceId]
