@@ -3,7 +3,8 @@ local isDestroyed = false
 
 local games = {
 	[121864768012064] = '5ef4906f230aa87d747191682bd77c38', -- Fish It
-	[5348290477]      = '99f427dbe176af2932530ecbecb6d3dc', -- Cabin
+	[71471877437404]      = '99f427dbe176af2932530ecbecb6d3dc', -- Cabin
+	[110745840914242]     = '99f427dbe176af2932530ecbecb6d3dc', -- Cabin
 	[127742093697776] = '48723aaade2692a66843c3f269c123e7', -- Plant Vs Brainrot
 	[102234703920418] = "441b692d791ccc8add557367b35a6e2e", -- Mount Daun
 	[128473079243102] = "441b692d791ccc8add557367b35a6e2e", -- Mount Arunika
