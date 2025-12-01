@@ -23,6 +23,6 @@ return {
     },
     keyLinks = {
         {name = "Lootlabs (Recommended)", url = "https://ads.luarmor.net/get_key?for=FFS_Free_Keys-yTRpdogpOywa"},
-        {name = "Linkvertise (Alternative)", url = "https://ads.luarmor.net/get_key?for=FFS_Free_Keys_Workink-kuUgXaSxKuRT"},
+        {name = "Work.ink (Alternative)", url = "https://ads.luarmor.net/get_key?for=FFS_Free_Keys_Workink-kuUgXaSxKuRT"},
     }
 }
